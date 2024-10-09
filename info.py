@@ -27,8 +27,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002315913185'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7252430326 6216394886').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Abdul2024:abdul54321@cluster0.6xep2fb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Andul2024")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://isha1470:rvi2uo5wacfGVSqB@cluster0.fvezv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "isha1470")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
